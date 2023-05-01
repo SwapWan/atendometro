@@ -1,0 +1,19 @@
+{
+    "name": "maria/htdocs",
+    "description": "wan",
+    "autoload": {
+        "psr-4": {
+            "Maria\\Htdocs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wan Matos",
+            "email": "wanderson.matos@fatec.sp.gov.br"
+        }
+    ],
+    "require": {
+		"php": "^7.4 || ^8.0",
+		"chillerlan/php-qrcode": "dev-main"
+	}
+}

@@ -1,0 +1,267 @@
+.estrelas input[type=radio]
+{
+	display:none;
+}
+.estrelas label i.fa:before
+{
+	content: '\f005';
+	color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before
+{
+	color: #CCC;
+}
+
+.resultado {
+    display: flex; /* habilita flexbox para centralizar elementos */
+    justify-content: center; /* centraliza os elementos horizontalmente */
+    font-size: 700%;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button, input[type="submit"] {
+    width: 100%; /* ocupa a tela inteira */
+    background-color: green; /* cor do fundo do botão */
+    color: white; /* cor do texto do botão */
+    padding: 12px; /* espaçamento interno do botão */
+    border: none; /* remove borda */
+}
+
+h1 {
+    text-align: center; /* centraliza o texto dentro do elemento */
+    margin: 0 auto; /* centraliza o elemento na tela */
+    font-size: 300%;
+    width: 90%; /* opcional, define largura do elemento */
+}
+h2 {
+    padding: 0%;
+    text-align: center; /* centraliza o texto dentro do elemento */
+    margin: 0 auto; /* centraliza o elemento na tela */
+    font-size: 300%;
+    width: 90%; /* opcional, define largura do elemento */
+
+}
+h3 {
+    padding: 2%;
+    text-align: center; /* centraliza o texto dentro do elemento */
+    margin: 0 auto; /* centraliza o elemento na tela */
+    font-size: 300%;
+    width: 90%; /* opcional, define largura do elemento */
+}
+
+
+.dashboard {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lado_a
+{
+width: 600px;
+height: 410px;
+
+border-radius: 2%;
+
+}
+
+.form_avaliar{
+    padding: 3%;
+    width: 800px;
+    min-height: 600px;
+    background-color: rgb(228, 242, 255);
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+.mensagem {
+    width: 600px;
+    height: 250px;
+    margin: 0 auto; /* centraliza o elemento na tela */
+
+}
+
+.painel {
+    width: 900px;
+    padding: 2%;
+    background-color: rgb(228, 242, 255);
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.artigo {
+
+    width: 800px;
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+.displays
+{
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+.display_QR{
+    height: 200px;
+    width: 450px;
+
+
+}
+.display_exemplo{
+    width: 600px;
+    height: 590px;
+    border: solid;
+    border-style: dashed;
+
+}
+
+
+.breve{
+    display: none;
+    }
+    
+.comousar{
+    width: 800px;
+    height: 2000px;
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px)
+{
+  .lado_b
+   {
+    display: none;
+
+   }
+   .lado_a{
+    margin: 0 auto; /* centraliza o elemento na tela */
+   }
+   .mensagem
+   {
+    display: none;
+   }
+
+   h1 {
+    text-align: center; /* centraliza o texto dentro do elemento */
+    margin: 0 auto; /* centraliza o elemento na tela */
+    font-size: 195%;
+    width: 90%; /* opcional, define largura do elemento */
+   }
+   .resultado {
+    font-size: 360%;
+   }
+
+   .form_avaliar{
+    padding: 3%;
+    max-width: 360px;
+    background-color: rgb(228, 242, 255);
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+    .painel {
+    width: 360px;
+    padding: 2%;
+    background-color: rgb(228, 242, 255);
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+.artigo {
+
+    width: 360px;
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+.displays
+{
+    flex-wrap: wrap;
+    padding: 2%;
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+.display_QR{
+    height: 200px;
+    width: 450px;
+
+
+}
+.display_exemplo{
+    padding: 2px;
+    width: 360px;
+    max-height: 500px;
+    border: solid;
+    border-style: dashed;
+    position: relative;
+    top:400px;
+
+}
+
+.dashboard{
+    padding: 0em  2em  0em 2em;
+
+}
+
+.breve{
+    position: relative;
+    top: 35px;
+    display:block;
+    margin: 0 auto; /* centraliza o elemento na tela */
+
+}
+
+
+.comousar{
+    width: 340px;
+    height: 2000px;
+    margin: 0 auto; /* centraliza o elemento na tela */
+}
+
+
+
+
+
+
+}
+
